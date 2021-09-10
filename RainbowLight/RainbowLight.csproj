@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6BBD44DC-3FB7-4B9A-8234-5EEBA8917037}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RainbowLight</RootNamespace>
+    <AssemblyName>RainbowLight</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Александр\Desktop\Отель\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>05EC9AD2B611F6BF9DD9E0405F4A8329DA01515B</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>RainbowLight_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.16.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.16\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database_RainbowLightDataSetCloseRooms.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database_RainbowLightDataSetCloseRooms.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database_RainbowLightDataSetGuests.cs">
+      <DependentUpon>Database_RainbowLightDataSetGuests.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database_RainbowLightDataSetGuests.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database_RainbowLightDataSetGuests.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database_RainbowLightDataSetInfoClients.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database_RainbowLightDataSetInfoClients.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database_RainbowLightDataSetReservedRooms.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database_RainbowLightDataSetReservedRooms.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database_RainbowLightDataSetResRooms.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database_RainbowLightDataSetResRooms.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FinalizePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinalizePayment.Designer.cs">
+      <DependentUpon>FinalizePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DopUslugi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DopUslugi.Designer.cs">
+      <DependentUpon>DopUslugi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UControl_InformationClients.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UControl_InformationClients.Designer.cs">
+      <DependentUpon>UControl_InformationClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ConnectToSQL.cs" />
+    <Compile Include="Resources\Dgv.cs" />
+    <Compile Include="UControl_AddGuests.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UControl_AddGuests.Designer.cs">
+      <DependentUpon>UControl_AddGuests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UControl_AvailabilityRooms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UControl_AvailabilityRooms.Designer.cs">
+      <DependentUpon>UControl_AvailabilityRooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UControl_ResRooms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UControl_ResRooms.Designer.cs">
+      <DependentUpon>UControl_ResRooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UControl_Search.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UControl_Search.Designer.cs">
+      <DependentUpon>UControl_Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UControl_Statistics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UControl_Statistics.Designer.cs">
+      <DependentUpon>UControl_Statistics.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FinalizePayment.resx">
+      <DependentUpon>FinalizePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DopUslugi.resx">
+      <DependentUpon>DopUslugi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UControl_InformationClients.resx">
+      <DependentUpon>UControl_InformationClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UControl_AddGuests.resx">
+      <DependentUpon>UControl_AddGuests.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UControl_AvailabilityRooms.resx">
+      <DependentUpon>UControl_AvailabilityRooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UControl_ResRooms.resx">
+      <DependentUpon>UControl_ResRooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UControl_Search.resx">
+      <DependentUpon>UControl_Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UControl_Statistics.resx">
+      <DependentUpon>UControl_Statistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Database_RainbowLightDataSetCloseRooms.xsc">
+      <DependentUpon>Database_RainbowLightDataSetCloseRooms.xsd</DependentUpon>
+    </None>
+    <None Include="Database_RainbowLightDataSetCloseRooms.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database_RainbowLightDataSetCloseRooms.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database_RainbowLightDataSetCloseRooms.xss">
+      <DependentUpon>Database_RainbowLightDataSetCloseRooms.xsd</DependentUpon>
+    </None>
+    <None Include="Database_RainbowLightDataSetGuests.xsc">
+      <DependentUpon>Database_RainbowLightDataSetGuests.xsd</DependentUpon>
+    </None>
+    <None Include="Database_RainbowLightDataSetGuests.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database_RainbowLightDataSetGuests.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database_RainbowLightDataSetGuests.xss">
+      <DependentUpon>Database_RainbowLightDataSetGuests.xsd</DependentUpon>
+    </None>
+    <None Include="Database_RainbowLightDataSetInfoClients.xsc">
+      <DependentUpon>Database_RainbowLightDataSetInfoClients.xsd</DependentUpon>
+    </None>
+    <None Include="Database_RainbowLightDataSetInfoClients.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database_RainbowLightDataSetInfoClients.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database_RainbowLightDataSetInfoClients.xss">
+      <DependentUpon>Database_RainbowLightDataSetInfoClients.xsd</DependentUpon>
+    </None>
+    <None Include="Database_RainbowLightDataSetReservedRooms.xsc">
+      <DependentUpon>Database_RainbowLightDataSetReservedRooms.xsd</DependentUpon>
+    </None>
+    <None Include="Database_RainbowLightDataSetReservedRooms.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database_RainbowLightDataSetReservedRooms.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database_RainbowLightDataSetReservedRooms.xss">
+      <DependentUpon>Database_RainbowLightDataSetReservedRooms.xsd</DependentUpon>
+    </None>
+    <None Include="Database_RainbowLightDataSetResRooms.xsc">
+      <DependentUpon>Database_RainbowLightDataSetResRooms.xsd</DependentUpon>
+    </None>
+    <None Include="Database_RainbowLightDataSetResRooms.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database_RainbowLightDataSetResRooms.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database_RainbowLightDataSetResRooms.xss">
+      <DependentUpon>Database_RainbowLightDataSetResRooms.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\DopUslugi.datasource" />
+    <None Include="Properties\DataSources\FinalizePayment.datasource" />
+    <None Include="Properties\DataSources\Login.datasource" />
+    <None Include="Properties\DataSources\Menu.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\RainbowLight.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\RainbowLight.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\RainbowLight.Resources.ConnectToSQL.datasource" />
+    <None Include="Properties\DataSources\RainbowLight.Resources.Dgv.datasource" />
+    <None Include="Properties\DataSources\UControl_AddGuests.datasource" />
+    <None Include="Properties\DataSources\UControl_FreeRooms.datasource" />
+    <None Include="Properties\DataSources\UControl_Options.datasource" />
+    <None Include="Properties\DataSources\UControl_ReservedRooms.datasource" />
+    <None Include="Properties\DataSources\UControl_Search.datasource" />
+    <None Include="Properties\DataSources\UControl_Statistics.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RainbowLight_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\login_user.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\login_pass.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\arrow_down.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\addClients.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\bd.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\exit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\home.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\options.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\statistics.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\pay.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\reservedRoom.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\cyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\green.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\orange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\purple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\yellow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\rainbowLight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\ExitIco.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Breakfast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\LaptopRental.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\MiniBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\pink.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database_RainbowLight.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database_RainbowLight_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database_RainbowLight.mdf</DependentUpon>
+    </Content>
+    <None Include="Properties\mainLabel1.png" />
+    <None Include="Properties\arrow_up.ico" />
+    <None Include="Properties\refresh.ico" />
+    <None Include="Properties\mail_dev.ico" />
+    <None Include="Properties\Info_clients.ico" />
+    <None Include="Properties\donate.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\rainbow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

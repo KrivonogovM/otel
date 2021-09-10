@@ -1,0 +1,110 @@
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\bin\Debug\RainbowLight.exe.config
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\bin\Debug\RainbowLight.exe
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\bin\Debug\RainbowLight.pdb
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\obj\Debug\RainbowLight.csprojAssemblyReference.cache
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\obj\Debug\RainbowLight.Properties.Resources.resources
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\obj\Debug\RainbowLight.csproj.GenerateResource.cache
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\obj\Debug\RainbowLight.csproj.CoreCompileInputs.cache
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\obj\Debug\RainbowLight.exe
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\obj\Debug\RainbowLight.pdb
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\obj\Debug\RainbowLight.UControl_AddGuests.resources
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\obj\Debug\RainbowLight.Login.resources
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\obj\Debug\RainbowLight.Menu.resources
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\obj\Debug\RainbowLight.UControl_Options.resources
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\obj\Debug\RainbowLight.DopUslugi.resources
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\obj\Debug\RainbowLight.FinalizePayment.resources
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\bin\Debug\Database_RainbowLight.mdf
+D:\Учение\Диплом\RainbowLight\RainbowLight\RainbowLight\bin\Debug\Database_RainbowLight_log.ldf
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\bin\Debug\Database_RainbowLight.mdf
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\bin\Debug\Database_RainbowLight_log.ldf
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\bin\Debug\RainbowLight.exe
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\bin\Debug\RainbowLight.pdb
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\bin\Debug\BouncyCastle.Crypto.dll
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\bin\Debug\Google.Protobuf.dll
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\bin\Debug\MySql.Data.dll
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\bin\Debug\Google.Protobuf.xml
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\bin\Debug\MySql.Data.xml
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.g.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.FinalizePayment.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.DopUslugi.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.Login.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.Menu.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.UControl_Options.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.Properties.Resources.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.UControl_InformationClients.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.UControl_AddGuests.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.UControl_AvailabilityRooms.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.UControl_Search.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.UControl_Statistics.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.csproj.GenerateResource.cache
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.csproj.CoreCompileInputs.cache
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.csproj.CopyComplete
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.exe
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.pdb
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.csprojAssemblyReference.cache
+D:\Учение\Диплом\RainbowLight\test\RainbowLight\RainbowLight\obj\Debug\RainbowLight.UControl_ResRooms.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\bin\Debug\Database_RainbowLight.mdf
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\bin\Debug\Database_RainbowLight_log.ldf
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\bin\Debug\RainbowLight.exe
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\bin\Debug\RainbowLight.pdb
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\bin\Debug\BouncyCastle.Crypto.dll
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\bin\Debug\Google.Protobuf.dll
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\bin\Debug\MySql.Data.dll
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\bin\Debug\Google.Protobuf.xml
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\bin\Debug\MySql.Data.xml
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.csprojAssemblyReference.cache
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.g.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.FinalizePayment.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.DopUslugi.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.Login.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.Menu.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_Options.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.Properties.Resources.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_InformationClients.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_AddGuests.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_AvailabilityRooms.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_ResRooms.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_Search.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_Statistics.resources
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.csproj.GenerateResource.cache
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.csproj.CoreCompileInputs.cache
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.csproj.CopyComplete
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.exe
+D:\Учение\Диплом\RainbowLight\test\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.pdb
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\Database_RainbowLight.mdf
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\Database_RainbowLight_log.ldf
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\RainbowLight.exe
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\RainbowLight.pdb
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\Google.Protobuf.dll
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\LiveCharts.dll
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\MySql.Data.dll
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\Google.Protobuf.xml
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\LiveCharts.pdb
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\LiveCharts.xml
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\bin\Debug\MySql.Data.xml
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.g.resources
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.FinalizePayment.resources
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.DopUslugi.resources
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.Login.resources
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.Menu.resources
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_Options.resources
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.Properties.Resources.resources
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_InformationClients.resources
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_AddGuests.resources
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_AvailabilityRooms.resources
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_ResRooms.resources
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_Search.resources
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.UControl_Statistics.resources
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.csproj.GenerateResource.cache
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.csproj.CopyComplete
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.exe
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.pdb
+C:\Users\Александр\Desktop\Новая папка (3)\RainbowLight2\RainbowLight\obj\Debug\RainbowLight.csproj.AssemblyReference.cache
